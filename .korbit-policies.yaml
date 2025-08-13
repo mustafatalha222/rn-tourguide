@@ -93,14 +93,14 @@ topics:
 
   - name: "React Native Application Architecture & Folder Structure"
     paths:
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
     policies:
       - title: "Abstract API Logic into a Dedicated Services Directory"
         description: |
@@ -236,14 +236,14 @@ topics:
 
   - name: "React Native State Management Patterns"
     paths:
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - 'package.json'
     policies:
       - title: "Avoid Using React Context for Frequently Changing State"
@@ -467,14 +467,14 @@ topics:
   - name: "React Native Navigation & Deep-Linking Strategy"
     paths:
       # These policies apply to navigation files, native configs, and component source
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - 'app.json'
       - 'package.json'
     policies:
@@ -736,10 +736,10 @@ topics:
 
   - name: "React Native Styling, Theming & Design Systems"
     paths:
-      - 'src/**/*.jsx'
-      - 'src/**/*.tsx'
-      - 'app/**/*.jsx'
-      - 'app/**/*.tsx'
+      - '**/*.jsx'
+      - '**/*.tsx'
+      - '**/*.jsx'
+      - '**/*.tsx'
     policies:
       - title: "Avoid Using Inline Styles for Theming and Layout"
         description: |
@@ -900,14 +900,14 @@ topics:
   - name: "React Native Performance Optimization"
     paths:
       # These policies apply to all source files and native build configurations
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - 'android/app/build.gradle'
       - 'ios/Podfile'
       - 'babel.config.js'
@@ -1171,14 +1171,14 @@ topics:
   - name: "React Native Security & Data Protection"
     paths:
       # These policies apply to all source files and native build configurations
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - 'android/app/src/main/AndroidManifest.xml'
       - 'ios/Info.plist'
       - 'metro.config.js'
@@ -1348,14 +1348,14 @@ topics:
   - name: "React Native Offline Support & Data Sync"
     paths:
       # These policies apply to all source files where data sync is handled
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
     policies:
       - title: "Use a Local Database Instead of AsyncStorage for Offline Data"
         description: |
@@ -1432,10 +1432,10 @@ topics:
   - name: "React Native Native Modules & Platform APIs"
     paths:
       # These policies apply to JS/TS wrappers, native code, and build configurations
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - 'android/**/*'
       - 'ios/**/*'
     policies:
@@ -1585,14 +1585,14 @@ topics:
   - name: "React Native Testing Strategy"
     paths:
       # These policies apply to test files and configurations
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - 'jest.config.js'
       - 'jest.setup.js'
       - 'package.json'
@@ -1810,10 +1810,10 @@ topics:
   - name: "React Native Accessibility & Inclusive Design"
     paths:
       # These policies apply to all source files where UI is defined
-      - 'src/**/*.jsx'
-      - 'src/**/*.tsx'
-      - 'app/**/*.jsx'
-      - 'app/**/*.tsx'
+      - '**/*.jsx'
+      - '**/*.tsx'
+      - '**/*.jsx'
+      - '**/*.tsx'
     policies:
       - title: "Ensure Icon-Only Buttons Have Accessible Labels to Support Screen Readers"
         description: |
@@ -2165,12 +2165,12 @@ topics:
   - name: "React Native Internationalization & Localization"
     paths:
       # These policies apply to all source files and locale files
-      - 'src/**/*.js'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.ts'
+      - '**/*.tsx'
       - '**/*.json'
     policies:
       - title: "Manage Display Text Through Internationalization (i18n)"
@@ -2277,14 +2277,14 @@ topics:
   - name: "React Native Animations & Gesture Handling"
     paths:
       # These policies apply to all source files where UI and interactions are defined
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
     policies:
       - title: "Use Reanimated for Complex or Gesture-Driven Animations"
         description: |
@@ -2451,14 +2451,14 @@ topics:
   - name: "React Native Error Handling & Monitoring"
     paths:
       # These policies apply to all source files and configurations
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - 'package.json'
     policies:
       - title: "Integrate a Crash Reporting Service for Production Builds"
@@ -2746,12 +2746,12 @@ topics:
   - name: "React Native Code Quality & Maintainability"
     paths:
       # These policies apply to all source code and config files
-      - 'src/**/*.js'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.ts'
+      - '**/*.tsx'
       - '.eslintrc.js'
     policies:
       - title: "Prohibit the Explicit Use of `any` in TypeScript"
@@ -2840,14 +2840,14 @@ topics:
   - name: "React Native Documentation & Storybook"
     paths:
       # These policies apply to all source code, stories, and documentation files
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - '**/*.stories.tsx'
       - 'package.json'
     policies:
@@ -2903,14 +2903,14 @@ topics:
   - name: "React Native Analytics & User Insights"
     paths:
       # These policies apply to all source code, especially analytics services and UI components
-      - 'src/**/*.js'
-      - 'src/**/*.jsx'
-      - 'src/**/*.ts'
-      - 'src/**/*.tsx'
-      - 'app/**/*.js'
-      - 'app/**/*.jsx'
-      - 'app/**/*.ts'
-      - 'app/**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
+      - '**/*.js'
+      - '**/*.jsx'
+      - '**/*.ts'
+      - '**/*.tsx'
       - 'package.json'
       - 'docs/analytics-taxonomy.md'
     policies:
